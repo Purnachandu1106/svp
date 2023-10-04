@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .d{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        ul>li{
+            display: inline;
+            list-style: none;
+            margin-left: 10px;
+           
+        }
+        ul{
+            margin-top: 70px;
+        }
+        .b{
+            margin-top: 70px;
+            
+        }
+        button{
+            background-color: aqua;
+            background-size: cover;
+            color: white;
+            border-radius: 10px;
+        }
+        .bo{
+           
+            
+            margin: 10px;
+            border: solid 3px lightseagreen;
+        }
+        .f{
+            background-color: beige;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://nirmaan.org/wp-content/uploads/2022/03/nirmaan_logo.png" alt="nirmaan logo" height="100px" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROGRAM</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PARTNERS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CAREERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <hr>
+    <div>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://nirmaan.org/wp-content/uploads/2023/08/GridArt_20230803_111055971-scaled.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="https://nirmaan.org/wp-content/uploads/2023/07/GridArt_20230710_171601988-scaled.jpg" alt="Chicago" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="https://nirmaan.org/wp-content/uploads/2023/08/GridArt_20230802_132330589-scaled.jpg" alt="New York" class="d-block" style="width:100%">
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <h3 style="text-align: center;">news feed</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 bo">
+                    <h3 style="background-color: aqua; text-align: center;">latest news</h3>
+                    <marquee behavior="" direction="up" style="height: 300px;">
+                        <p>campage:Support to Nutrition Kits for Children & Elderly  </p>
+                        <p>new(Campaign) : Support for Greenhope Kitchen Gardens Cultivating  </p>
+                        <p>new(Campaign) : Support to School Children for a Bright Future  </p>
+                        <p>new(Event ) : Food Bank Activity Program From State Street </p>
+                        <p>new(Job Drive) : Nirmaan Skill Centre in Bommanahalli has Successfully Completed Job Drive.</p>
+                        <p>new(Campaign) : Help Daravath Suresh win for India.Support for Mulugu and Warangal Flood Relief  </p>
+                        <p>new(Campaign) : Support for Save One Rupee a Day  </p></p>
+                    </marquee>
+                </div>
+                <div class="col-md-3 bo">
+                    <img src="https://nirmaan.org/wp-content/uploads/2023/08/Untitled-design-79-300x150.png" alt="image" height="100px" width="100px">
+                    <h3>Team Nirmaan Celebrate Our Independence Day</h3>
+                    <p>As #Independence Day approaches, Team Nirmaan Organization comes together to honor our country's freedom fighters and celebrate our diverse unity ...</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-md-3 bo">
+                    <img src="https://nirmaan.org/wp-content/uploads/2023/08/Untitled-design-79-300x150.png" alt="image" height="100px" width="100px">
+                    <h3>Team Nirmaan Celebrate Our Independence Day</h3>
+                    <p>As #Independence Day approaches, Team Nirmaan Organization comes together to honor our country's freedom fighters and celebrate our diverse unity ...</p>
+                    <button>READMORE</button>
+                    <div class="col-lg-3"><button>more</button></div>
+                    
+                </div>
+            </div>
+        </div>
+        <h3 style="text-align: center;"> Featured Campaigns</h3>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://nirmaan.org/wp-content/uploads/2023/07/Untitled-design-68.png" alt="image" height="100px" width="100px">
+                    <h3>Support to Nutrition Kits for Children & Elderly</h3>
+                    <p>In India where access to proper nutrition remains a challenge for many, the importance of nutrition cannot be overstated..,</p>
+                    <button>READMORE</button>
+                </div>
+                <div  class="col-md-3"> 
+                    <img src="https://nirmaan.org/wp-content/uploads/2023/08/Untitled-design-76.png" alt="image" height="100px" width="100px">
+                    <h3>Support for Mulugu and Warangal Flood Relief</h3>
+                    <p>In view of ﬂoods in Mulugu and Warangal, Nirmaan is implementing a project - "Operation Sahaaya 9.0" for immediate relief.,</p>
+                    <button>READ MORE</button>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://nirmaan.org/wp-content/uploads/2023/07/Untitled-design-57.png" alt="image" height="100px" width="100px">
+                    <h3>Support for Botanical Gardens Tree Plantation
+                    </h3>
+                    <p>To create a greener and more sustainable Hyderabad by planting trees, fostering an environment that benefits..,</p>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+        <h3 style="text-align: center;">Recent Causes</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                <img src="https://nirmaan.org/wp-content/uploads/2022/02/education222.jpg" alt="" height="300px" width="300px">
+                <img src="https://nirmaan.org/wp-content/uploads/2022/02/skilling-1-scaled.jpg" alt="" height="300px" width="300px">
+                <img src="https://nirmaan.org/wp-content/uploads/2022/02/myflood-1-scaled.jpg" alt="" height="300px" width="300px">
+            </div>
+            
+            <div class="col-sm-4">
+                
+                <img src="https://nirmaan.org/wp-content/uploads/2022/02/myhealth.jpg" alt="" height="300px" width="300px">
+                <img src="https://nirmaan.org/wp-content/uploads/2022/02/mydiversity.jpg" alt="" height="300px" width="300px">
+                <img src="https://nirmaan.org/wp-content/uploads/2022/02/myw.jpg" alt=""height="300px" width="300px">
+            
+            </div>
+        
+        </div>
+    </div>
+    <div class="f d">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="ibm.jpeg" class="d-block w-100" alt="..." height="300px" width="300px">
+              </div>
+              <div class="carousel-item">
+                <img src="EPAM_Continuum_Logo.jpg" class="d-block w-100" alt="..."  height="300px" width="300px">
+              </div>
+              <div class="carousel-item">
+                <img src="adp.png" class="d-block w-100" alt="..."  height="300px" width="00px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class=" f mt-4 container">
+        <h3 style="text-align: center;">OUR STORY</h3>
+        <div class="row">
+        <DIV class="col-sm-12 m-5 p-5 d">
+            <video src="nirmaanvideo.mp4" controls style="height: 600px; width: 700px;"> our story</video>
+        </DIV>
+    </div>
+    </div>
+    <div class="container">
+        <h3>our gallery</h3>
+        <div class="row">
+            <div class="col-lg-4">
+                
+                    <img src="https://nirmaan.org/wp-content/uploads/2021/06/super-30-girls-1024x683-640x480.jpg" alt="" height="400px" width="400px"></div>
+                    <div class="col-lg-4">
+                        <img src="https://nirmaan.org/wp-content/uploads/2021/06/DSC_3172-1024x683-640x480.jpg" alt=""  height="400px" width="400px">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://nirmaan.org/wp-content/uploads/2021/06/DSC_0313-1024x683-640x480.jpg" alt=""  height="400px" width="400px">
+
+                    </div>
+                    <div class="col-lg-4 mt-2"><img src="https://nirmaan.org/wp-content/uploads/2021/06/DSC_3164-1024x683-640x480.jpg" alt=""  height="400px" width="400px"></div>
+                    
+                    </div>
+                    <div class=" m-5 btn btn-primary"> more images</div>
+                </div>
+    </div>
+    <div class="container">
+        <h3 style="text-align: center;">Testimonials</h3>
+        <div class="row">
+            <div class="col-lg-4 container">
+                <img src="https://images.hindustantimes.com/tech/img/2023/01/19/1600x900/AI_generated_art_1674113313038_1674113318035_1674113318035.jpg" alt="img" height="100px" width="100px" style="border-radius: 50%;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat neque, consequuntur animi sapiente facilis vel incidunt, temporibus laborum, perferendis rem tempora fugit laboriosam. Eos accusantium in dolor dolore est quam.</p>
+                <h5 class="text-primary px-4"> hello</h5>
+
+
+            </div>
+            <div class="col-lg-4 container">
+                <img src="https://images.hindustantimes.com/tech/img/2023/01/19/1600x900/AI_generated_art_1674113313038_1674113318035_1674113318035.jpg" alt="img" height="100px" width="100px" style="border-radius: 50%;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat neque, consequuntur animi sapiente facilis vel incidunt, temporibus laborum, perferendis rem tempora fugit laboriosam. Eos accusantium in dolor dolore est quam.</p>
+                <h5 class="text-primary px-4"> hello</h5>
+
+
+            </div>
+            <div class="col-lg-4 container">
+                <img src="https://images.hindustantimes.com/tech/img/2023/01/19/1600x900/AI_generated_art_1674113313038_1674113318035_1674113318035.jpg" alt="img" height="100px" width="100px" style="border-radius: 50%;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat neque, consequuntur animi sapiente facilis vel incidunt, temporibus laborum, perferendis rem tempora fugit laboriosam. Eos accusantium in dolor dolore est quam.</p>
+                <h5 class="text-primary px-4"> hello</h5>
+
+
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="container-fluid bg-dark text-white">
+        <div class="row">
+            <div class=" container col-lg-4 ">
+                <h4>certificate</h4>
+                <img src="key2022.png" alt="" height="100px" width="100px"><img src="JAN-2023_JAN-2024-gptw.png" alt="" height="100px" width="100px">
+
+            </div>
+            <div class="col-lg-4">
+                <h4>contact info</h4>
+                <address>Flat No. 401, Jaihind Enclave, Madhapur, Hyderabad - 500081.
+                    
+                     </address>
+                     <p><img src="https://th.bing.com/th/id/OIP.kxashKTg-pXNYMmQQ7VbBQHaHb?w=192&h=193&c=7&r=0&o=5&pid=1.7" alt="" height="20px" width="20px">contact@nirmaan.org</p>
+                     <p><img src="https://th.bing.com/th/id/R.bc75940d3e5b36c4f13c783d53e9dfa3?rik=blCdoaRWE0ZaDg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_97207.png&ehk=hXLvYsMoh3IwQfR7dLia7IIHKltdbT%2bLEkxDeP0v%2fsg%3d&risl=&pid=ImgRaw&r=0" alt="" height="20px" width="20px">contact:+91 900-027-6903</p>
+                    <button class="btn btn-light rounded-circle" style="color: blue; font-style: italic;">f b</button>
+                    <button class="btn btn-light rounded-circle"><img src="insta.jpeg" alt="" height="10px"></button>
+                    <button class="btn btn-light rounded-circle"><img src="OIP.jpeg" alt="" height="10px"></button>
+                    <button class="btn btn-light rounded-circle"><img src="linkedin.jpeg" alt="" height="10px"></button>
+                    <button class="btn btn-light rounded-circle"><img src="youtube-logo-clipart-transparent-background-3.png" alt="youtube" height="10px"></button>
+            </div>
+            <div class="col-lg-4">
+                <h4>contact form</h4>
+                <input type="text" placeholder="your name">
+                <input type="text" placeholder=" your e-mail">
+                <input type="text" placeholder="subject">
+                <input type="text" placeholder=" type your message">
+                <input type="submit" class="btn btn-primary mt-1 container-fluid">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
